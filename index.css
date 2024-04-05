@@ -1,0 +1,150 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Outfit';
+}
+
+.RecipeCard {
+    width: 400px;
+    height: auto;
+    margin: 10% 0px 10% 0px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 20%;
+}
+
+.RecipeInnerContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.RecipeImage {
+    border-radius: 5px;
+}
+
+.RecipeHeading {
+    font-family: 'Young Serif';
+    font-weight: 500;
+    font-size: 22px;
+    color: hsl(24, 5%, 18%);
+    margin-bottom: 5px;
+}
+
+.RecipeOverview {
+    font-size: 9px;
+    color: hsl(30, 10%, 34%);
+    font-weight: 500;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.PrepTime {
+    background-color: hsl(330, 100%, 98%);
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.PrepTimeHeading {
+    margin: 8px 0px;
+    color: hsl(332, 51%, 32%);
+}
+
+.PrepTimeList,.IngredientsList{
+ padding-left: 17px ;
+ margin:5px 0px 0px 0px;
+}
+
+.PrepTimeList li{
+    padding:0px 0px 7px 10px;
+}
+
+.PrepTimeList li,.IngredientsList li,.NutritionTable .Measure{
+  font-size: 10px;
+  color:hsl(30, 10%, 34%);
+  font-weight: 400;
+}
+.PrepTimeList li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+.Ingredients,.Instructions,tr{
+    border-bottom: 0.25px solid hsl(30, 18%, 87%);
+}
+.Ingredients{
+padding-bottom: 10px;
+}
+
+.IngredientsHeading,.InstructionsHeading,.NutritionHeading{
+    font-family: 'Young Serif';
+    color:hsl(14, 45%, 36%);
+    font-weight: 500;
+    margin-bottom:10px;
+}
+.InstructionsHeading{
+    margin-top:15px;
+}
+
+.IngredientsList li{
+    padding-left:10px;
+    padding-bottom: 10px;
+}
+
+.IngredientsList li::marker,.InstructionsList li::marker,.NutritionTable .Value{
+    color:hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.InstructionsList{
+    padding-left:12px;
+    margin-top:5px;
+}
+
+.InstructionsList li{
+    font-size:9px;
+    color:hsl(30, 10%, 34%);
+    padding-left:10px;
+    padding-bottom: 7px;
+}
+
+.NutritionSubHeading{
+    font-size: 9px;
+    color:hsl(30, 10%, 34%);
+    font-weight: 500;
+}
+
+.NutritionTable .Value{
+    font-size:9px;
+}
+
+.NutritionTable{
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+.NutritionTable td{
+ margin:0px;
+ padding:10px;
+}
+
+.NutritionTable .Measure,.NutritionTable .Value{
+    width:50%;
+    padding:5px;
+    margin:0px;
+}
+
+.NutritionTable tr:last-child{
+    border: none;
+}
+
+.NutritionTable .Measure{
+    padding-left:15px;
+}
+
+
